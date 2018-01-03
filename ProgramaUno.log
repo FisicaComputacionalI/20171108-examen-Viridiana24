@@ -1,0 +1,11 @@
+ProgramaUno.cc:28:36: error: invalid operands to binary expression ('int' and 'const char *')
+       cout << "ciclo p<S, S " < S << ",p " << p << endl;
+                                 ~ ^  ~~~~~
+ProgramaUno.cc:40:10: error: expected ';' after expression
+    p=p+2
+         ^
+         ;
+ProgramaUno.cc:45:33: error: invalid operands to binary expression ('const char *' and 'int')
+  cout < "final ciclo S!=0, S " << S << ",p " << p << endl;
+         ~~~~~~~~~~~~~~~~~~~~~~ ^  ~
+3 errors generated.
